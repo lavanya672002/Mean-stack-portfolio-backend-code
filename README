@@ -1,0 +1,19 @@
+###STEPS TO BE FOLLOWED TO CREATE THE PERSONAL PROTFOLIO USINGNG MERN STACK ###
+
+1. started with the backend and the filename is backend_protfolio
+2. installed 
+|===> npm init 
+3. next install all the availabe packages required
+|===> npm install express express-fileupload bcrypt cookie-parser nodemailer cors dotenv cloudinary jsonwebtoken mongoose
+4. create 
+|==> app.js file
+5. Go to package.json file and add
+|===> "type":"module"  and 
+|===> in scripts add "start":"node server.js" , "dev":"nodemon server.js"
+6. create
+|==> server.js file
+7. install nodemon if not there
+|===> npm install -g nodemon
+8. npm run dev --> to run the backend code [developing stage]
+
+
